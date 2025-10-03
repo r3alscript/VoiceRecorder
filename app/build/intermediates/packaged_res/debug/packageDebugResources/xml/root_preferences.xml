@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/pref_group_limits">
+
+        <EditTextPreference
+            android:key="pref_max_duration_min"
+            android:title="@string/pref_max_minutes"
+            android:dialogTitle="@string/pref_max_minutes_hint"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_group_storage">
+
+        <Preference
+            android:key="pref_output_dir"
+            android:title="@string/pref_choose_folder"
+            android:summary="@string/pref_choose_folder_summary" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+id btnPlay
+id btnPlayPause
+id btnRecord
+id btnSettings
+id btnStop
+id btnStopPlay
+id btnStopPlayback
+id chronometer
+id tvName
+layout activity_main
+layout item_record
+string app_name
+string open_settings
+string pause
+string play
+string play_start
+string play_stop
+string pref_choose_folder
+string pref_choose_folder_summary
+string pref_group_limits
+string pref_group_storage
+string pref_max_minutes
+string pref_max_minutes_hint
+string record_start
+string record_stop
+string stop_playback
+string toast_playback_stopped
+string toast_playing
+string toast_recording_saved
+string toast_recording_started
+xml root_preferences

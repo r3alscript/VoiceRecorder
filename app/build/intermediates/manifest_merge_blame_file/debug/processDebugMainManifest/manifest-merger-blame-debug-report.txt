@@ -1,0 +1,163 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.voicerecorder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:3:5-71
+11-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:3:22-68
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:4:5-77
+12-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:4:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+13-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:5:5-88
+13-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:5:22-85
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:6:5-77
+14-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:6:22-74
+15
+16    <permission
+16-->[androidx.core:core:1.13.0] C:\Users\denis\.gradle\caches\8.13\transforms\e14d9122d45fb71ea63e5eedb2149f5e\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.voicerecorder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.13.0] C:\Users\denis\.gradle\caches\8.13\transforms\e14d9122d45fb71ea63e5eedb2149f5e\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.13.0] C:\Users\denis\.gradle\caches\8.13\transforms\e14d9122d45fb71ea63e5eedb2149f5e\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.voicerecorder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.13.0] C:\Users\denis\.gradle\caches\8.13\transforms\e14d9122d45fb71ea63e5eedb2149f5e\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.0] C:\Users\denis\.gradle\caches\8.13\transforms\e14d9122d45fb71ea63e5eedb2149f5e\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:8:5-31:19
+23        android:allowBackup="true"
+23-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:9:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.13.0] C:\Users\denis\.gradle\caches\8.13\transforms\e14d9122d45fb71ea63e5eedb2149f5e\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:label="Диктофон"
+27-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:10:9-33
+28        android:supportsRtl="true"
+28-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:11:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+30-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:12:9-65
+31        <activity
+31-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:14:9-16:40
+32            android:name="com.example.voicerecorder.SettingsActivity"
+32-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:15:13-45
+33            android:exported="false" />
+33-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:16:13-37
+34        <activity
+34-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:18:9-25:20
+35            android:name="com.example.voicerecorder.MainActivity"
+35-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:19:13-41
+36            android:exported="true" >
+36-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:20:13-36
+37            <intent-filter>
+37-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:21:13-24:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:22:17-69
+38-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:23:17-77
+40-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:23:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:27:9-30:58
+45            android:name="com.example.voicerecorder.RecordingService"
+45-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:28:13-45
+46            android:exported="false"
+46-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:29:13-37
+47            android:foregroundServiceType="microphone" />
+47-->C:\Users\denis\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:30:13-55
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.3.0] C:\Users\denis\.gradle\caches\8.13\transforms\f70f12d124aec4360c28a3dac21f47ef\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\denis\.gradle\caches\8.13\transforms\f70f12d124aec4360c28a3dac21f47ef\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+51            android:authorities="com.example.voicerecorder.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\denis\.gradle\caches\8.13\transforms\f70f12d124aec4360c28a3dac21f47ef\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\denis\.gradle\caches\8.13\transforms\f70f12d124aec4360c28a3dac21f47ef\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\denis\.gradle\caches\8.13\transforms\f70f12d124aec4360c28a3dac21f47ef\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\denis\.gradle\caches\8.13\transforms\f70f12d124aec4360c28a3dac21f47ef\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\denis\.gradle\caches\8.13\transforms\f70f12d124aec4360c28a3dac21f47ef\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\denis\.gradle\caches\8.13\transforms\a73eae44318146a0fe01029875dc3f6e\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\denis\.gradle\caches\8.13\transforms\a73eae44318146a0fe01029875dc3f6e\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\denis\.gradle\caches\8.13\transforms\a73eae44318146a0fe01029875dc3f6e\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+60-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+61                android:value="androidx.startup" />
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+62        </provider>
+63
+64        <uses-library
+64-->[androidx.window:window:1.0.0] C:\Users\denis\.gradle\caches\8.13\transforms\80d7dd7b772e700770db393b4c460347\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+65            android:name="androidx.window.extensions"
+65-->[androidx.window:window:1.0.0] C:\Users\denis\.gradle\caches\8.13\transforms\80d7dd7b772e700770db393b4c460347\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] C:\Users\denis\.gradle\caches\8.13\transforms\80d7dd7b772e700770db393b4c460347\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+67        <uses-library
+67-->[androidx.window:window:1.0.0] C:\Users\denis\.gradle\caches\8.13\transforms\80d7dd7b772e700770db393b4c460347\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+68            android:name="androidx.window.sidecar"
+68-->[androidx.window:window:1.0.0] C:\Users\denis\.gradle\caches\8.13\transforms\80d7dd7b772e700770db393b4c460347\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0] C:\Users\denis\.gradle\caches\8.13\transforms\80d7dd7b772e700770db393b4c460347\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\denis\.gradle\caches\8.13\transforms\810f7f4668c6a1f4acab1623c80a072c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>

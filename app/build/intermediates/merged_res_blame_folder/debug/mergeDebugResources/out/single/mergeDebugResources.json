@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.voicerecorder.app-debug-40:/xml_root_preferences.xml.flat",
+        "source": "com.example.voicerecorder.app-main-42:/xml/root_preferences.xml"
+    },
+    {
+        "merged": "com.example.voicerecorder.app-debug-40:/layout_item_record.xml.flat",
+        "source": "com.example.voicerecorder.app-main-42:/layout/item_record.xml"
+    },
+    {
+        "merged": "com.example.voicerecorder.app-debug-40:/layout_activity_main.xml.flat",
+        "source": "com.example.voicerecorder.app-main-42:/layout/activity_main.xml"
+    }
+]
